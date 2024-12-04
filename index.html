@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teen Social Media Guide for Parents</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+<!-- Header Section -->
+<header>
+    <h1>Teen Social Media Guide for Parents</h1>
+    <p>Supporting your teen’s mental health and digital literacy in the age of social media.</p>
+</header>
+
+<!-- Navigation Menu -->
+<nav>
+    <ul>
+        <li><a href="#why-it-matters">Why It Matters</a></li>
+        <li><a href="#tips">Practical Tips</a></li>
+        <li><a href="#quiz">Test Your Knowledge</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Why It Matters Section-->
+<section id="why-it-matters">
+    <h2>Why It Matters</h2>
+        <img src="img_6.png" alt="Teens using smartphones" class="img">
+<!--        <img src="img_5.png" alt="Teens using smartphones" class="img">-->
+    <p>Social media is a powerful force in shaping teens' mental health, self-esteem, and relationships. Here’s why understanding its impact on your teen matters.</p>
+    <section id="statistics">
+        <h2>Social Media Impact Statistics</h2>
+        <div class="stats">
+            <div>
+                <h3>95%</h3>
+                <i class="fas fa-mobile-alt icon fa-beat"></i>
+                <p>Teens have access to smartphones.</p>
+            </div>
+            <div>
+                <h3>50%</h3>
+                <i class="fas fa-user-clock icon fa-beat"></i>
+                <p>Teens are online “almost constantly.”</p>
+            </div>
+            <div>
+                <h3>3x</h3>
+                <i class="fas fa-exclamation-triangle icon fa-beat"></i>
+                <p>Increase in anxiety linked to unrealistic online comparisons.</p>
+            </div>
+        </div>
+    </section>
+</section>
+
+
+<!-- Practical Tips Section-->
+<section id="tips">
+    <h2>Practical Tips for Parents</h2>
+    <img src="img_4.png" alt="Family having a discussion" class="img">
+    <p>Here are evidence-based strategies from experts and research to help your teen have a balanced relationship with social media.</p>
+    <ul>
+        <li>Encourage open, judgment-free discussions about their online experiences.</li>
+        <li>Set up a family social media plan with agreed-upon rules and limits.</li>
+        <li>Help them understand the realities behind filtered content and online personas.</li>
+        <li>Encourage following accounts that promote positive mental health and learning.</li>
+    </ul>
+</section>
+
+<!-- Interactive Quiz Section -->
+<section id="quiz">
+    <h2>Interactive Quiz <i class="fa-solid fa-pen fa-beat"></i></h2>
+    <p>Test your knowledge about social media’s impact on teens!</p>
+    <div id="quiz-container">
+
+        <!-- Question 1 -->
+        <p>1. How much time does the average teen spend on social media daily?</p>
+        <div class="time-icons">
+            <button onclick="checkAnswer('q1', 'a')">
+                <i class="fa-regular fa-hourglass-half fa-spin"></i>
+                <span>1-2 hours</span>
+            </button>
+
+            <button onclick="checkAnswer('q1', 'b')">
+                <i class="fa-regular fa-hourglass-half fa-spin"></i>
+               <span>3-4 hours</span>
+            </button>
+
+            <button onclick="checkAnswer('q1', 'c')">
+                <i class="fa-regular fa-hourglass-half fa-spin"></i>
+                <span>5+ hours</span>
+            </button>
+        </div>
+        <p id="q1"></p>
+
+        <!-- Question 2 -->
+        <p>2. Which platform is known for its addictive short-form videos?</p>
+        <div class="social-icons">
+            <button onclick="checkAnswer('q1', 'a')">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+            </button>
+            <button onclick="checkAnswer('q1', 'b')">
+                <i class="fab fa-tiktok"></i>
+                <span>TikTok</span>
+            </button>
+            <button onclick="checkAnswer('q1', 'c')">
+                <i class="fa-brands fa-snapchat"></i>
+                <span>Snapchat</span>
+            </button>
+            <button onclick="checkAnswer('q1', 'd')">
+                <i class="fab fa-facebook"></i>
+                <span>Facebook</span>
+            </button>
+        </div>
+        <p id="q2"></p>
+
+        <!-- Question 3 -->
+        <p>3. Which mental health issues have been linked to excessive social media use among teens?</p>
+        <div class="questions">
+            <button onclick="checkAnswer('q3', 'a')"><p>Improved self-esteem</p></button>
+            <button onclick="checkAnswer('q3', 'b')"><p>Depression and anxiety</p></button>
+            <button onclick="checkAnswer('q3', 'c')"><p>Enhanced focus</p></button>
+            <button onclick="checkAnswer('q3', 'd')"><p>Increased happiness</p></button>
+        </div>
+        <p id="q3"></p>
+
+        <!-- Question 4 -->
+        <p>4. True or False: Social media usage can disrupt teens' sleep patterns.</p>
+        <div class="questions">
+            <button onclick="checkAnswer('q4', 'a')"><p>True</p></button>
+            <button onclick="checkAnswer('q4', 'b')"><p>False</p></button>
+        </div>
+        <p id="q4"></p>
+
+        <!-- Question 5 -->
+        <p>5. Which social media platform is often associated with body image concerns among teenagers due to its emphasis on visual content?</p>
+        <div class="social-icons5">
+            <button onclick="checkAnswer('q5', 'a')">
+                <i class="fa-brands fa-twitter"></i>
+                <span>Twitter</span>
+            </button>
+            <button onclick="checkAnswer('q5', 'b')">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+            </button>
+            <button onclick="checkAnswer('q5', 'c')">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </button>
+            <button onclick="checkAnswer('q5', 'd')">
+                <i class="fa-brands fa-reddit"></i>
+                <span>Reddit</span>
+            </button>
+        </div>
+        <p id="q5"></p>
+
+        <!-- Question 6 -->
+        <p>6. What is one positive effect of social media on teens?</p>
+        <div class="questions">
+            <button onclick="checkAnswer('q6', 'a')"><p>Opportunities for social connection and support</p></button>
+            <button onclick="checkAnswer('q6', 'b')"><p>Increased risk of cyberbullying</p></button>
+            <button onclick="checkAnswer('q6', 'c')"><p>Decreased attention span</p></button>
+            <button onclick="checkAnswer('q6', 'd')"><p>Exposure to misinformation</p></button>
+        </div>
+        <p id="q6"></p>
+
+        <!-- Question 7 -->
+        <p>7. According to experts, what is a recommended strategy for teens to manage their social media use?</p>
+        <div class="questions">
+            <button onclick="checkAnswer('q7', 'a')"><p>Unlimited access at all times</p></button>
+            <button onclick="checkAnswer('q7', 'b')"><p>Setting time limits and taking regular breaks</p></button>
+            <button onclick="checkAnswer('q7', 'c')"><p>Avoiding social media entirely</p></button>
+            <button onclick="checkAnswer('q7', 'd')"><p>Only using social media late at night</p></button>
+        </div>
+        <p id="q7"></p>
+
+        <!-- Question 8 -->
+        <p>8. Which of the following is a common negative impact of social media on teens' academic performance?</p>
+        <div class="questions">
+            <button onclick="checkAnswer('q8', 'a')"><p>Improved grades</p></button>
+            <button onclick="checkAnswer('q8', 'b')"><p>Enhanced concentration</p></button>
+            <button onclick="checkAnswer('q8', 'c')"><p>Procrastination and distraction</p></button>
+            <button onclick="checkAnswer('q8', 'd')"><p>Better time management</p></button>
+        </div>
+        <p id="q8"></p>
+
+        <!-- Question 9 -->
+        <p>9. True or False: Social media can influence teens' perception of reality due to the prevalence of curated and filtered content.</p>
+        <div class="questions">
+            <button onclick="checkAnswer('q9', 'a')"><p>True</p></button>
+            <button onclick="checkAnswer('q9', 'b')"><p>False</p></button>
+        </div>
+        <p id="q9"></p>
+
+        <!-- Question 10 -->
+        <p>10. What is cyberbullying?</p>
+        <div class="questions">
+            <button onclick="checkAnswer('q10', 'a')"><p>Playing video games online</p></button>
+            <button onclick="checkAnswer('q10', 'b')"><p>Using the internet to bully or harass others</p></button>
+            <button onclick="checkAnswer('q10', 'c')"><p>Learning computer programming</p></button>
+            <button onclick="checkAnswer('q10', 'd')"><p>Online shopping</p></button>
+        </div>
+        <p id="q10"></p>
+     <div id="count">
+         <p>Score: 0</p>
+     </div>
+        <!-- Restart Button -->
+        <button id="restart" onclick="resetQuiz()">Restart Quiz</button>
+    </div>
+</section>
+
+<!-- Resources Section -->
+<section id="resources">
+    <h2>Resources</h2>
+    <p>Here are some trusted sources to help you learn more:</p>
+    <ul>
+        <li><a href="https://www.apa.org/monitor/2023/09/protecting-teens-on-social-media" target="_blank">American Psychological Association: Protecting Teens on Social Media</a></li>
+        <li><a href="https://capmh.biomedcentral.com/articles/10.1186/s13034-024-00805-0" target="_blank">Biomed Central: The Relationship of Social Networks with Psychosocial Health</a></li>
+        <li><a href="https://www.safesearchkids.com/a-teens-guide-to-social-media-safety" target="_blank">A Teens Guide to Social Media Safety</a></li>
+        <li><a href ="https://bradenbellphd.substack.com/p/several-sad-stories-parenting-from" target=" _blank">Several Sad Stories Parenting From</a></li>
+    </ul>
+</section>
+
+<section id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <details>
+        <summary>How much time should my teen spend on social media daily?</summary>
+        <p>While time limits are useful, the focus should be on the quality of their interactions rather than the quantity.</p>
+    </details>
+    <details>
+        <summary>What are some warning signs of unhealthy social media use?</summary>
+        <p>Look for signs like withdrawal, excessive comparison, or anxiety tied to online activity.</p>
+    </details>
+    <details>
+        <summary>How can I encourage my teen to use social media positively?</summary>
+        <p>Encourage them to follow educational and inspiring accounts and have open discussions about their online experiences.</p>
+    </details>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or need further resources? Reach out!</p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>Muhais Olatundun RHET 105 Genre Remix FALL 2024</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
