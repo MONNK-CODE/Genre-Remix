@@ -34,3 +34,23 @@ function resetQuiz() {
 }
 console.log(checkAnswer);
 console.log(scoreCount);
+
+function likePost(element) {
+    const like = document.getElementById("like");
+    let likesElement = element.nextElementSibling;
+    let likesCount = parseInt(likesElement.textContent.split(' ')[0]);
+    likesCount++;
+    likesElement.textContent = likesCount + ' Likes';
+    if (likesCount > 10) {
+        like.textContent = 'Notice how easy it is to get caught up in the numbers?';
+        like.style.color = 'red';
+    }
+    // Add the bounce class
+    element.classList.add('bounce');
+
+    // Remove the bounce class after the animation completes
+    setTimeout(() => {
+        element.classList.remove('bounce');
+    }, 300); // Match the duration of the CSS animation
+}
+
